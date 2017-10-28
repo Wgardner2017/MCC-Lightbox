@@ -128,16 +128,3 @@ h1 {
     flex-basis: 40%;
   }
 }
-@media (max-width: 37em) {
-  #thumbnails img {
-    width: 150px;
-  }
-  .images {
-    flex-basis: 50%;
-  }
-
-  footer {
-    font-size: 0.75em;
-    padding: 0.25em;
-  }
-}
