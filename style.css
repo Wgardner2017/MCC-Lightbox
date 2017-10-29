@@ -162,6 +162,7 @@ h1 {
   #lightBox {
     position: fixed;
     top: auto;
+    bottom: auto;
     display: none;
     width: 100vw;
     height: 100vw;
