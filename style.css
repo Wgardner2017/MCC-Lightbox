@@ -24,8 +24,7 @@ h1 {
   width: 75%;
   height: 75%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+
   align-items: center;
   justify-content: space-around;
   padding-top: 1em;
@@ -116,4 +115,39 @@ h1 {
   padding-top: 0.5em;
   color: rgba(87, 87, 87, 0.9);
   text-shadow: 1px 1px 1px #fff;
+}
+@media (max-width: 60em) {
+  #thumbnails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+  }
+}
+@media (max-width: 48em) {
+  #thumbnails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+  }
+}
+@media (max-width: 37em) {
+  #thumbnails {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+  }
+  #lightBox {
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    flex-direction: column;
+  }
+  .lightBoxImage {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+  }
 }
