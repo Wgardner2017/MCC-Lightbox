@@ -153,15 +153,15 @@ h1 {
   #lightBox {
     position: fixed;
     display: none;
-    width: 90vw;
-    height: 90vw;
+    width: 100vw;
+    height: 100vw;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     flex-direction: column;
   }
   .lightBoxImage {
-    width: 60%;
-    height: 60%;
+    width: 50;
+    height: 50;
     margin: 0 auto;
   }
 }
