@@ -135,16 +135,11 @@ h1 {
   border-radius: 25px;
   box-shadow: #374048;
 }
-@media (min-width: 533px) {
-   #lightBox {
-    position: fixed;
-    top: auto;
-    display: none;
-    width: 90vw;
-    height: 90vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    flex-direction: column;
+
+ .lightBoxImage {
+    width: 50;
+    height: 50;
+    margin: 0 auto;
   }
 
 @media (max-width: 36em) {
@@ -154,15 +149,19 @@ h1 {
     grid-auto-rows: auto;
   }
   #thumbnails img {
-  width: 150px;
-  height: 150px;
+  width: 150px; .lightBoxImage {
+    width: 50;
+    height: 50;
+    margin: 0 auto;
+  }
+  
  
   box-shadow: #374048;
 }
   
   #lightBox {
     position: fixed;
-    top: auto;
+    
     display: none;
     width: 100vw;
     height: 100vw;
