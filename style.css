@@ -129,13 +129,27 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
   }
+}#thumbnails img {
+  width: 90%;
+  height: 90%
+  border-radius: 25px;
+  box-shadow: #374048;
 }
+
+
 @media (max-width: 37em) {
   #thumbnails {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: auto;
   }
+  #thumbnails img {
+  width: 80%;
+  height: 80%;
+  border-radius: 25px;
+  box-shadow: #374048;
+}
+  
   #lightBox {
     position: fixed;
     display: none;
